@@ -14,7 +14,7 @@ class Square:
     """
     def __init__(self, size=0):
         """
-        initizlizes the square using the setter.
+        initializes the square using the setter.
 
         args:
             size (int): the size of the square. defaults to 0.
@@ -27,7 +27,7 @@ class Square:
     @property
     def size(self):
         """
-        retrives the size of the square.
+        retrieves the size of the square.
 
         returns:
             int: the current size.
@@ -49,6 +49,7 @@ class Square:
         # 1st. type validation
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
+        # 2nd. value validation
         if value < 0:
             raise ValueError("size must be >= 0")
 
