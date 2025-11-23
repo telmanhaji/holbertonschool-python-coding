@@ -1,4 +1,4 @@
-#!/ust/bin/python3
+#!/usr/bin/python3
 """
 this module defines a class Square with getters and setters.
 it demonstrates centralized data validation using python properties.
