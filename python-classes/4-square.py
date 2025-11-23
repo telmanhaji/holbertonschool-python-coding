@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-this module defines a class Square with validation, area calculation, and printing.
+defines a class Square with validation, area calculation, and printing.
 it demonstrates how to visualize object state.
 """
 
